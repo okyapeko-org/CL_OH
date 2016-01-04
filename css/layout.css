@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+#main{width:100%;max-width:660px;}
+
+#sub{width:100%;max-width:300px;}
+
+
+#wrap,#head-in{
+	max-width:970px;
+	width:100%;
+}
+
+#top-navi-cont,#footer-cont,#all-kanban,#pan,#ribon,#navi-cont{
+	width:970px;
+}
+
+#wrap,
+#head-in,
+#top-navi-cont,
+#head,
+.main-cont,
+#footer-cont,
+#navi-cont,
+#pan,
+#ribon,
+#footer-cont{margin:auto;}
+
+
+
+#main{float:left;}
+
+#main img,
+.main-cont img{width:100%;}
+
+#sub{float:right;}
+
+/*--------------------------------------------------------
+モバイル用レイアウト
+------------------------------------------------------*/
+
+@media
+only screen and (max-width : 750px){
+	
+
+
+/* 最大最小幅
+------------------------------------------------------*/
+#head,
+#navi,
+#pan,
+#wrap,
+#kanban,
+#kanban-in,
+#main,
+#sub,
+#footer{min-width: 100%!important;}
+
+
+/* ％設定
+------------------------------------------------------*/
+
+#head,
+#navi,
+#pan,
+#wrap,
+#main,
+#main-in,
+#sub,
+#footer,
+#head-in,
+#head-l,
+#head-r{width: 100%!important;}
+
+#navi-in,
+#pan-in,
+#content-in,
+#sub-in,
+#footer-in,
+.main-cate-box-in,
+.main-cate-box p,
+.main-cate-in,
+.main-cont,
+.main-cont-l,
+.main-cont-r,
+.main-column-cont,
+.main-list,
+.main-reco,
+.main-kuti-cont,
+.main-rank-single,
+.main-search{width: 96%!important;margin: 0 2%!important;}
+
+	
+
+#head-r li{width:19.65%;}
+
+#head-l img{width:45%;}
+
+#kanban-l li{width:50%; float:left;}
+
+/*sub*/
+.sub-cont dt{width:12%;}
+.sub-cont dd{width:85%;}
+
+/* フロート設定
+------------------------------------------------------*/
+
+#sub,
+#kanban-l,
+#kanban-r,
+#main,
+.main-cont-l,
+.main-cont-r,
+#head-logo,
+#head-cont{float: none!important;}
+}

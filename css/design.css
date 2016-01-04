@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+/* #head
+------------------------------------------------------------------------------------*/
+
+#head{background:#FFF;padding:0 0 10px 0;}
+#head-l{float:left;background:#FFF;}
+#head-r{float:right;}
+#head li{float:left;padding:10px 0 0 20px;}
+
+
+/* #navi
+------------------------------------------------------------------------------------*/
+
+#navi{height:43px;margin:0 0 10px 0;}
+#navi li{float:left;}
+.navi-cont-li{padding:0 16px 0 0;}
+.navi-cont-li-end{padding:0 0px 0 0;}
+
+
+/* #ribon
+------------------------------------------------------------------------------------*/
+
+#ribon{	padding:0px 0px 10px 0px;}
+#ribon a{text-decoration:none;}
+
+/* #main
+------------------------------------------------------------------------------------*/
+.main-cont{margin:0 0 20px 0; border-top:3px solid #019AD4;}
+.main-cont h2{font-size:18px;	padding:12px 10px 10px 15px;border-bottom:1px solid #CCC;}
+.main-cont{width:100%;}
+.main-cont-in{padding:15px;}
+
+/* まんが */
+
+.main-manga-title{background-image:url(../img/kanban-manga-m.gif);background-repeat:no-repeat;padding:83px 0 31px 40px;font-size:20px;}
+
+/*マンガ */
+.main-manga-in{padding:10px 10px 0 10px;}
+.main-manga-l,.main-manga-r{	width:48%;}
+.main-manga-l{float:left;}
+.main-manga-r{float:right;}
+.main-manga-in dl{	clear:both;	margin:0px;}
+.main-manga-in dt{	width:20%;	float:left;	margin:0px;}
+.main-manga-in dd{	width:78%;	float:right;margin:0px;}
+
+
+/*マンガ-テスト環境 */
+#all-manga-02{	margin:0px 0px 20px 0px;	padding:72px 0 30px 0;	background-image:url(../img/main-manga02.jpg);	background-repeat:no-repeat;}
+#all-manga-02-list{	width:614px;	margin:0 0 0 13px;	padding:10px 10px 0 10px;	background-repeat:no-repeat;	background-color:#FFF;}
+#all-manga-02 dl{	clear:both;	margin:0px;	padding:0px 0 0px 0px;}
+#all-manga-02 dt{	width:80px;	height:90px;	float:left;	margin:0px;}
+#all-manga-02 dd{	width:515px;	float:left;	margin:0px 0px 0px 10px;}
+
+
+/*比較コンテンツ
+.main-hikaku{	margin:0 0 10px 0;}
+.main-hikaku h3{	padding:0 0 5px 0;}
+.main-hikaku h4{	background-image:url(../img/icon-crown.jpg);	background-repeat:no-repeat;	background-position:0 80%;	font-size:18px;	padding:15px 0 5px 30px;}
+.main-hikaku ul{	padding:8px 0 0 0;}
+.main-hikaku-li,.all-hikaku-liend{	float:left;}
+.main-hikaku-li{	width:167px;}
+.main-hikaku-liend{	margin:0 0 0 0;	width:159px;} */
+
+/*比較コンテンツ-2 */
+
+
+.main-hikaku-in{padding:10px 10px 5px 10px;}
+.main-hikaku-in h4{	background-image:url(../img/icon-crownmini.gif);	background-color:#CEFFFF;	background-repeat:no-repeat;	background-position:1% 45%;	padding:3px 0 3px 27px;	margin:10px 0 12px 0;	font-size:12px;	font-weight:bold;}
+.main-hikaku-in dl{	float:left;	width:25%;	margin:0px 0 8px 0;}
+.main-hikaku-in dt{	float:left;	width:45px;	margin:0px;}
+.main-hikaku-in dd{	float:left;	width:162px;	margin:0px;}
+
+
+
+
+/* #sub
+------------------------------------------------------------------------------------*/
+
+#sub{}
+
+.sub-ad{background:#FFF;margin:0 0 10px 0;}
+
+#sub-topics{
+	background-image:url(../img/sub-topics.jpg);
+	background-repeat:no-repeat;
+	padding:80px 20px 28px 20px;
+}
+
+#sub-topics dl{
+	margin:0 0 10px 0;
+	padding:0 0 10px 0;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+
+#sub-topics dt{
+	background-image:url(../img/title-icon-02.gif);
+	background-repeat:no-repeat;
+	margin:0 0 5px 0;
+	padding:0 0 0 10px;
+}
+
+#sub-topics dd{
+	margin:0 0 0px 0;
+}
+
+#sub-keijiban{
+	background-image:url(../img/sub-keijiban.jpg);
+	background-repeat:no-repeat;
+	padding:70px 20px 28px 20px;
+	height:320px;
+}
+
+#sub-keijiban dl{
+	margin:0 0 10px 0;
+	padding:0 0 10px 0;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+
+#sub-keijiban dt{
+	background-image:url(../img/title-icon-02.gif);
+	background-repeat:no-repeat;
+	margin:0 0 5px 0;
+	padding:0 0 0 10px;
+}
+
+#sub-keijiban dd{
+	margin:0 0 0px 0;
+	font-size:10px;
+}
+
+/*サイドバーの比較*/
+
+#sub-hikaku{background:#FFF;margin:0 0 10px 0;margin:0 0 10px 0;}
+
+#sub-hikaku-cont{	padding:15px 10px 10px 10px;	border: 1px solid #CCC;	background:#FFF;}
+
+.sub-hikaku-cont-h4-s{
+	background-image:url(../img/icon-crownmini.gif);
+	background-repeat:no-repeat;
+	background-color:#CEFFFF;
+	background-position:2% 40%;
+	font-size:14px;
+	font-weight:bold;
+	margin:0px 0 10px 0px;
+	padding:5px 0 5px 27px;
+}
+
+.sub-hikaku-cont-h4{
+	background-image:url(../img/icon-crownmini.gif);
+	background-repeat:no-repeat;
+	background-color:#CEFFFF;
+	background-position:2% 40%;
+	font-size:14px;
+	font-weight:bold;
+	clear:both;
+	margin:15px 0 10px 0;
+	padding:5px 0 5px 27px;
+}
+
+#sub-hikaku-cont dl{
+	clear:both;
+	margin:0px 0 8px 0;
+	padding:0 0 5px 0;
+	border-bottom-color:#CCC;
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+}
+
+#sub-hikaku-cont dt{
+	width:43px;
+	float:left;
+	margin:0px;
+}
+
+#sub-hikaku-cont dd{
+	width:233px;
+	margin:0px;
+	float:left;
+}
+
+#sub-hikaku-cont h3{
+	padding:0 0 5px 0;
+}
+
+#sub-hikaku-cont dd p{
+	font-size:12px;
+	line-height:1.2em;
+}
+
+
+#sub-manga{margin:0 0 10px 0;}
+
+#sub-manga-cont{background:#FFF;
+	
+	padding:10px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+
+#sub-manga-cont dl{
+	clear:both;
+	margin:0px 0 5px 0;
+	padding:0 0 5px 0;
+	border-bottom-color:#CCC;
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+}
+
+#sub-manga-cont dt{
+	width:68px;
+	float:left;
+}
+
+#sub-manga-cont dd{
+	width:208px;
+	margin:0px;
+	float:left;
+}
+
+#sub-manga-cont h3{
+	padding:0 0 5px 0;
+}
+
+#sub-manga-cont dl p{
+	font-size:11px;
+	line-height:1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.main-cont h2 {font-size: 14px;padding: 12px 10px 10px 15px;border-top: 3px solid #0B97C8;border-left: 1px solid #CCC;border-right: 1px solid #CCC;border-bottom: 1px solid #CCC;background-color: rgba(226, 240, 253, 0.12);}*/
+
+
+
+
